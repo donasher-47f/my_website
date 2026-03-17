@@ -1,0 +1,47 @@
+
+/* HOW CSS IS EXPRESSED*/
+/* :element : {SELECTOR PROPRIENTARYNAME:VALUE} */
+
+body {
+    background-color: rgb(196, 52, 52);
+
+}
+
+/* classname */
+
+.my-hero-section {
+    background-color: green;
+}
+
+
+/* id -unique identifier */
+#navbar {
+    background-color: blue;
+}
+/* Requiment 1 & 2: Image size and rounding */
+.profile-image {
+    width: 200px;
+    height: 300px;
+    border-radius: 300px; /* This makes the corners rounded */
+}
+.profile-image {
+    object-fit: cover; /* This ensures the image covers the entire area without distortion */
+}
+/* Requiment 3: Change dots to tick list */
+.tick-list {
+    list-style-type: "✓ "; /* This changes the bullet points to checkmarks */
+}
+/* Requiment 4: Global Font Change */
+body {
+    font-family: "Times New Roman", serif;  /* This sets the global font for the entire page */
+}
+/* Requiment 5: Reusable Font Size class */
+.font-size-small {
+    font-size: 12px;
+}
+.font-size-medium {
+    font-size: 18px;
+}
+.font-size-large {
+    font-size: 32px;
+}
